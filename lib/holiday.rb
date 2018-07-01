@@ -58,6 +58,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
    holiday_hash.map do |key, value|
+     binding.pry
      "#{key}: #{value}"
     end
 end
