@@ -34,7 +34,7 @@ end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   binding.pry
-  holiday_hash[season] = {:columbus_day => ["Flags", "Italian Food", "Parade Floats"]}
+  holiday_hash[season] = {holiday_name => ["Flags", "Italian Food", "Parade Floats"]}
 
 end
 
