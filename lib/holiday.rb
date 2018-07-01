@@ -44,6 +44,7 @@ def all_winter_holiday_supplies(holiday_hash)
     value.each do |x|
     winter_supplies << x
   end
+  end
   winter_supplies
 end
 
