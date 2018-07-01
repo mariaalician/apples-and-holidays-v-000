@@ -59,7 +59,7 @@ def all_supplies_in_holidays(holiday_hash)
   
    holiday_hash.map do |key, value|
      binding.pry
-     "#{key}: #{value}"
+     puts "#{key}: #{value}"
     end
 end
 
