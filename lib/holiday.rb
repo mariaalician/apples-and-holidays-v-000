@@ -59,8 +59,8 @@ def all_supplies_in_holidays(holiday_hash)
   
    holiday_hash.each do |key, value|
      puts "#{key.capitalize}:"
-     binding.pry
      value.each do |holiday, supplies|
+       binding.pry
        split_holiday = holiday.split("_")
      end
     end
