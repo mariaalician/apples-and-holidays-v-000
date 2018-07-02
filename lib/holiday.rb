@@ -58,7 +58,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
    holiday_hash.map do |key, value|
-     puts "#{key}: #{value}"
+     puts "#{key}: #{value}".to_s.capitalize
     end
 end
 
