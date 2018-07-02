@@ -67,6 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
      end
     capitalized_holiday = split_holiday.join(" ")
      end
+     
     end
 end
 
