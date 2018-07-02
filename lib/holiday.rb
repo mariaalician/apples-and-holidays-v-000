@@ -61,7 +61,9 @@ def all_supplies_in_holidays(holiday_hash)
      puts "#{key.capitalize}:"
      value.each do |holiday, supplies|
        binding.pry
-       split_holiday = holiday.to_s.split("_").join(" ").capitalize
+       split_holiday = holiday.to_s.split("_")
+       split_holiday.map do |word|
+       word.capitalize
      end
     end
 end
